@@ -1,0 +1,108 @@
+main{background-color:hsl(0, 0%, 12%) ;
+    min-height: 100vh;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{background-color:hsl(0, 0%, 8%) ;
+width: 1004px;
+height: 100vh;
+display: flex;
+flex-direction: colummn;
+justify-content: center;
+align-items: center;
+ }
+
+.card{background-color:hsl(0, 0%, 12%) ;
+width: 395px;
+height: 640px;
+border-radius: 10px;;
+}
+.card-avatar{
+     display: flex; 
+    justify-content: center; 
+    align-items: center;
+border-radius:50%;
+padding-top: 35px;}
+.card-name{color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+.card-text{color: hsl(75, 94%, 57%);
+text-align: center;}
+p{text-align: center;
+font-size: 16px;
+color: whitesmoke;}
+
+.btn{   display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    gap: 1rem;
+    text-align: center;
+    align-self: stretch;
+
+}
+.btns:hover{background-color: white;
+color:#000;}
+.btn-1 {
+    width: 80%;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 600;
+    transition: color 0.5s, background-color 0.5s;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.btn-2 {
+    width: 80%;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 600;
+    transition: color 0.5s, background-color 0.5s;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.btn-3 {
+    width: 80%;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 600;
+    transition: color 0.5s, background-color 0.5s;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.btn-4 {
+    width: 80%;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 600;
+    transition: color 0.5s, background-color 0.5s;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.btn-5 {
+    width: 80%;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 600;
+    transition: color 0.5s, background-color 0.5s;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+@font-face {
+    font-family:(inter) ;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.tt);
+}
+@media only screen and (min-width: 1440px) {
+    body {
+    max-height: 812px;
+    max-width:375px;
+    }
+  }
