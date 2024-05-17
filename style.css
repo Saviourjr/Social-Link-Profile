@@ -16,7 +16,7 @@ align-items: center;
 
 .card{background-color:hsl(0, 0%, 12%) ;
 width: 395px;
-height: 600px;
+height: 605px;
 border-radius: 8px;
 }
 .card-avatar{
@@ -24,7 +24,7 @@ border-radius: 8px;
     justify-content: center; 
     align-items: center;
 border-radius:50%;
-padding-top: 35px;}
+padding-top: 25px;}
 .card-name{color: hsl(0, 0%, 100%);
     text-align: center;
 }
