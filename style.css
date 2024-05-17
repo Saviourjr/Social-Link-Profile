@@ -100,9 +100,4 @@ color:#000;}
     font-family:(inter) ;
     src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.tt);
 }
-@media only screen and (min-width: 1440px) {
-    body {
-    max-height: 812px;
-    max-width:375px;
-    }
-  }
+
