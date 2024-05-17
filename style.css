@@ -17,7 +17,7 @@ align-items: center;
 
 .card{background-color:hsl(0, 0%, 12%) ;
 width: 395px;
-height: 560px;
+height: 600px;
 border-radius: 8px;
 }
 .card-avatar{
